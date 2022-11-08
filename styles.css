@@ -1,0 +1,42 @@
+body{
+    padding: 25px;
+    overflow: hidden;
+  }
+  .title {
+      color: #5C6AC4;
+  }
+  #zan {
+    position: absolute;
+    width: 18%;
+    top: 45%;
+    left: 41%;
+    border-radius: 50%;
+  }
+  @media only screen and (max-width: 550px) {
+    #zan {
+      width: 35%;
+      top: 37%;
+      left: 32%;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    #zan {
+      width: 23%;
+      top: 38%;
+      left: 38%;
+    }
+  }
+  @media only screen and (min-width: 1020px) {
+    #zan {
+      width: 18%;
+      top: 35%;
+      left: 41%;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    #zan {
+      width: 15%;
+      top: 32%;
+      left: 42%;
+    }
+  }
